@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket         = "rajdevsecopsproject"
     region         = "us-east-1"
-    key            = "End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
+    key            = "Kubernetes-Three-Tier-DevSecOps-Project/Jenkins-Server-TF/terraform.tfstate"
     dynamodb_table = "devsecops"
     encrypt        = true
   }
